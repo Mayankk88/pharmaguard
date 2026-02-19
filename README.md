@@ -5,9 +5,14 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![React 18](https://img.shields.io/badge/react-18-blue.svg)](https://reactjs.org/)
 
-**Live Demo:** [https://pharmaguard.vercel.app](https://pharmaguard.vercel.app)  
-**Backend API:** [https://pharmaguard-api.onrender.com](https://pharmaguard-api.onrender.com)  
-**LinkedIn Demo:** [#RIFT2026 #PharmaGuard](https://linkedin.com/posts/your-demo-video)
+**Live Demo:** [https://mayankk88.github.io/pharmaguard](https://mayankk88.github.io/pharmaguard)  
+**GitHub Repo:** [https://github.com/Mayankk88/pharmaguard](https://github.com/Mayankk88/pharmaguard)
+
+## 🚀 One-Click Deploy
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Mayankk88/pharmaguard)
+
+Click the button above to deploy the backend to Render in one click!
 
 ---
 
