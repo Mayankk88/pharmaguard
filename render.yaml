@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: pharmaguard-backend
+    env: python
+    region: oregon
+    plan: free
+    branch: main
+    buildCommand: "pip install -r backend/requirements.txt"
+    startCommand: "cd backend && gunicorn app:app"
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: FLASK_ENV
+        value: production
