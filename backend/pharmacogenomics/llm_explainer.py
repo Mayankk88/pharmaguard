@@ -118,16 +118,14 @@ Example format:
         print(f"Content received: {content[:200] if 'content' in locals() else 'No content'}")
         return generate_fallback_explanation(patient_id, drug, risk_label, phenotype, variants, gene)
         
-    except openai.error.AuthenticationError:
-        print("OpenAI API authentication failed - check API key")
-        return generate_fallback_explanation(patient_id, drug, risk_label, phenotype, variants, gene)
-        
-    except openai.error.RateLimitError:
-        print("OpenAI API rate limit exceeded")
-        return generate_fallback_explanation(patient_id, drug, risk_label, phenotype, variants, gene)
-        
     except Exception as e:
-        print(f"Error generating LLM explanation: {type(e).__name__}: {str(e)}")
+        error_msg = str(e).lower()
+        if 'authentication' in error_msg or 'api key' in error_msg:
+            print("OpenAI API authentication failed - check API key")
+        elif 'rate limit' in error_msg:
+            print("OpenAI API rate limit exceeded")
+        else:
+            print(f"Error generating LLM explanation: {type(e).__name__}: {str(e)}")
         return generate_fallback_explanation(patient_id, drug, risk_label, phenotype, variants, gene)
 
 
