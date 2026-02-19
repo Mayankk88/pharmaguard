@@ -18,6 +18,45 @@ CORS(app)
 
 SUPPORTED_DRUGS = ['CODEINE', 'WARFARIN', 'CLOPIDOGREL', 'SIMVASTATIN', 'AZATHIOPRINE', 'FLUOROURACIL']
 
+@app.route('/', methods=['GET'])
+def index():
+    """API information endpoint."""
+    return jsonify({
+        'success': True,
+        'service': 'PharmaGuard API',
+        'version': '1.0.0',
+        'description': 'Pharmacogenomic Risk Prediction System',
+        'endpoints': {
+            'GET /': 'API information',
+            'GET /health': 'Health check',
+            'GET /drugs': 'List supported drugs',
+            'POST /analyze': 'Analyze VCF file (form-data: vcf, drugs)'
+        },
+        'supported_drugs': SUPPORTED_DRUGS,
+        'supported_genes': ['CYP2D6', 'CYP2C19', 'CYP2C9', 'SLCO1B1', 'TPMT', 'DPYD'],
+        'documentation': 'https://github.com/Mayankk88/pharmaguard',
+        'frontend': 'https://mayankk88.github.io/pharmaguard/'
+    }), 200
+
+@app.route('/health', methods=['GET'])
+def health():
+    """Health check endpoint."""
+    return jsonify({
+        'success': True,
+        'status': 'ok',
+        'service': 'PharmaGuard API',
+        'version': '1.0.0'
+    }), 200
+
+@app.route('/drugs', methods=['GET'])
+def list_drugs():
+    """List supported drugs."""
+    return jsonify({
+        'success': True,
+        'supported_drugs': SUPPORTED_DRUGS,
+        'count': len(SUPPORTED_DRUGS)
+    }), 200
+
 @app.route('/analyze', methods=['POST'])
 def analyze():
     """Analyze VCF file and return pharmacogenomic risk assessment."""
