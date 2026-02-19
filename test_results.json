@@ -16,7 +16,7 @@
       "summary": "Genetic analysis reveals IM phenotype for CYP2D6, classifying CODEINE risk as Adjust Dosage. This assessment is based on 2 detected variant(s) that affect drug metabolism and clinical response.",
       "variant_impact": "Variants identified: rs3892097, rs1065852. These genetic variations in CYP2D6 modify enzyme activity, leading to the IM metabolizer classification and corresponding Adjust Dosage risk profile for CODEINE therapy."
     },
-    "patient_id": "PATIENT_D56BD4C8",
+    "patient_id": "PATIENT_C3FB13BE",
     "pharmacogenomic_profile": {
       "detected_variants": [
         {
@@ -44,7 +44,7 @@
       "risk_label": "Adjust Dosage",
       "severity": "moderate"
     },
-    "timestamp": "2026-02-19T16:11:27.875565Z"
+    "timestamp": "2026-02-19T19:24:25.976772Z"
   },
   {
     "clinical_recommendation": {
@@ -62,7 +62,7 @@
       "summary": "Genetic analysis reveals IM phenotype for CYP2C9, classifying WARFARIN risk as Adjust Dosage. This assessment is based on 2 detected variant(s) that affect drug metabolism and clinical response.",
       "variant_impact": "Variants identified: rs1799853, rs1057910. These genetic variations in CYP2C9 modify enzyme activity, leading to the IM metabolizer classification and corresponding Adjust Dosage risk profile for WARFARIN therapy."
     },
-    "patient_id": "PATIENT_D56BD4C8",
+    "patient_id": "PATIENT_C3FB13BE",
     "pharmacogenomic_profile": {
       "detected_variants": [
         {
@@ -90,7 +90,7 @@
       "risk_label": "Adjust Dosage",
       "severity": "moderate"
     },
-    "timestamp": "2026-02-19T16:11:28.248940Z"
+    "timestamp": "2026-02-19T19:24:26.285638Z"
   },
   {
     "clinical_recommendation": {
@@ -107,7 +107,7 @@
       "summary": "Genetic analysis reveals IM phenotype for CYP2C19, classifying CLOPIDOGREL risk as Adjust Dosage. This assessment is based on 2 detected variant(s) that affect drug metabolism and clinical response.",
       "variant_impact": "Variants identified: rs4244285, rs12248560. These genetic variations in CYP2C19 modify enzyme activity, leading to the IM metabolizer classification and corresponding Adjust Dosage risk profile for CLOPIDOGREL therapy."
     },
-    "patient_id": "PATIENT_D56BD4C8",
+    "patient_id": "PATIENT_C3FB13BE",
     "pharmacogenomic_profile": {
       "detected_variants": [
         {
@@ -135,7 +135,7 @@
       "risk_label": "Adjust Dosage",
       "severity": "moderate"
     },
-    "timestamp": "2026-02-19T16:11:28.598354Z"
+    "timestamp": "2026-02-19T19:24:26.941371Z"
   },
   {
     "clinical_recommendation": {
@@ -153,7 +153,7 @@
       "summary": "Genetic analysis reveals IM phenotype for SLCO1B1, classifying SIMVASTATIN risk as Adjust Dosage. This assessment is based on 1 detected variant(s) that affect drug metabolism and clinical response.",
       "variant_impact": "Variants identified: rs4149056. These genetic variations in SLCO1B1 modify enzyme activity, leading to the IM metabolizer classification and corresponding Adjust Dosage risk profile for SIMVASTATIN therapy."
     },
-    "patient_id": "PATIENT_D56BD4C8",
+    "patient_id": "PATIENT_C3FB13BE",
     "pharmacogenomic_profile": {
       "detected_variants": [
         {
@@ -176,7 +176,7 @@
       "risk_label": "Adjust Dosage",
       "severity": "moderate"
     },
-    "timestamp": "2026-02-19T16:11:28.906888Z"
+    "timestamp": "2026-02-19T19:24:27.346675Z"
   },
   {
     "clinical_recommendation": {
@@ -193,7 +193,7 @@
       "summary": "Genetic analysis reveals PM phenotype for TPMT, classifying AZATHIOPRINE risk as Toxic. This assessment is based on 1 detected variant(s) that affect drug metabolism and clinical response.",
       "variant_impact": "Variants identified: rs1142345. These genetic variations in TPMT modify enzyme activity, leading to the PM metabolizer classification and corresponding Toxic risk profile for AZATHIOPRINE therapy."
     },
-    "patient_id": "PATIENT_D56BD4C8",
+    "patient_id": "PATIENT_C3FB13BE",
     "pharmacogenomic_profile": {
       "detected_variants": [
         {
@@ -216,7 +216,7 @@
       "risk_label": "Toxic",
       "severity": "high"
     },
-    "timestamp": "2026-02-19T16:11:29.203269Z"
+    "timestamp": "2026-02-19T19:24:27.689714Z"
   },
   {
     "clinical_recommendation": {
@@ -233,7 +233,7 @@
       "summary": "Genetic analysis reveals PM phenotype for DPYD, classifying FLUOROURACIL risk as Toxic. This assessment is based on 1 detected variant(s) that affect drug metabolism and clinical response.",
       "variant_impact": "Variants identified: rs3918290. These genetic variations in DPYD modify enzyme activity, leading to the PM metabolizer classification and corresponding Toxic risk profile for FLUOROURACIL therapy."
     },
-    "patient_id": "PATIENT_D56BD4C8",
+    "patient_id": "PATIENT_C3FB13BE",
     "pharmacogenomic_profile": {
       "detected_variants": [
         {
@@ -256,6 +256,6 @@
       "risk_label": "Toxic",
       "severity": "high"
     },
-    "timestamp": "2026-02-19T16:11:29.510050Z"
+    "timestamp": "2026-02-19T19:24:28.042737Z"
   }
 ]
